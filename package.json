@@ -1,0 +1,23 @@
+{
+  "name": "c1-auth",
+  "version": "1.0.0",
+  "description": "Authenticate mcporter to ConductorOne MCP via OAuth on remote/headless machines",
+  "bin": {
+    "c1-auth": "bin/c1-auth.mjs"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "bin/c1-auth.mjs"
+  ],
+  "keywords": [
+    "conductorone",
+    "mcp",
+    "mcporter",
+    "oauth",
+    "cli"
+  ],
+  "license": "MIT"
+}
